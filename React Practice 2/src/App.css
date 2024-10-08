@@ -1,0 +1,190 @@
+nav {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  height: 43px;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+}
+
+nav button {
+  width: 75px;
+  height: 31px;
+  color: white;
+  background-color: #d01c28;
+  border: none;
+  border-radius: 12px;
+}
+
+.heroContent {
+  width: 90%;
+  margin: 3% auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 102px;
+  font-weight: 700;
+  line-height: 90px;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+p {
+  width: 60%;
+}
+
+.heroBtn {
+  display: flex;
+  gap: 40px;
+}
+
+.heroBtn button {
+  gap: 40px;
+  width: 150px;
+  height: 40px;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.btnShop {
+  color: white;
+  border: none;
+  background-color: #d01c28;
+}
+
+.heroImages {
+  display: flex;
+  gap: 20px;
+}
+
+.heroImages img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 1024px) {
+  .heroContent {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 30px auto;
+  }
+
+  .heroText{
+    margin-left: 10%;
+  }
+
+  p{
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  li {
+    display: block;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  .shoeImg{
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 576px) {
+  nav {
+    width: 90%;
+  }
+
+  nav button {
+    display: block;
+  }
+
+  li {
+    display: none;
+  }
+
+  h1 {
+    font-size: 64px;
+  }
+
+  .shoeImg {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .heroBtn{
+    gap: 10px;
+  }
+
+  .heroBtn button{
+    width: 140px;
+  }
+
+  p{
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width : 1700px) {
+  #root{
+      margin-left: 12.5%;
+      margin-right: 12.5%;
+      width: 75%;
+  }
+}
+
+@media only screen and (min-width : 1900px) {
+  #root{
+      margin-left: 17.5%;
+      margin-right: 17.5%;
+      width: 65%;
+  }
+}
+
+@media only screen and (min-width : 2600px) {
+  #root{
+      margin-left: 25%;
+      margin-right: 25%;
+      width: 50%;
+  }
+}
+
+@media only screen and (min-width : 3500px) {
+  #root{
+      margin-left: 33%;
+      margin-right: 33%;
+      width: 34%;
+  }
+}
+
+@media only screen and (min-width : 4000px) {
+  #root{
+      margin-left: 37.5%;
+      margin-right: 37.5%;
+      width: 25%;
+      /* height: 60%; */
+  }
+}
