@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    font-family: sans-serif;
+}
+
+.bg-container {
+    position: absolute;
+    background-image: url(./images/544750.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-container {
+    position: relative;
+    width: 35%;
+    height: 70%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-container::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.signin {
+    display: inline-flex;
+    margin-left: 6%;
+    margin-top: 6%;
+    font-size: 2rem;
+    position: relative;
+    color: white;
+}
+
+.social {
+    display: inline-flex;
+}
+
+.social img {
+    top: -2rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    position: relative;
+    margin-left: 100%;
+    margin-right: 1rem;
+    background-color: #ffc312;
+}
+
+.social img:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.id-pword {
+    position: relative;
+}
+
+.u-name {
+    display: flex;
+    width: 23rem;
+    height: 2.5rem;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.u-name input {
+    border: none;
+    margin-left: 1rem;
+    outline: none;
+    width: 18rem;
+    font-size: 16px;
+}
+
+.password {
+    display: flex;
+    width: 23rem;
+    height: 2.5rem;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.password input {
+    border: none;
+    margin-left: 1rem;
+    outline: none;
+    width: 18rem;
+    font-size: 16px;
+}
+
+.yellow {
+    width: 3rem;
+    height: 2.5rem;
+    background-color: #ffc312;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow img {
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: #ffc312;
+}
+
+.remember {
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.remember input,
+label {
+    color: white;
+    font-size: 16px;
+}
+
+.button {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    margin-right: 2rem;
+
+}
+
+.button button {
+    background-color: #ffc312;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.button button:hover {
+    background-color: white;
+    transition: 0.2s;
+}
+
+.end {
+    margin-top: 2rem;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.end a {
+    color: rgb(42, 93, 233);
+    text-decoration: none;
+}
+
+.end-end a {
+    margin-top: 1rem;
+    position: relative;
+    color: rgb(42, 93, 233);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+/* Signup.html */
+
+.social-signup {
+    display: inline-flex;
+}
+
+.social-signup img {
+    top: -2rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    position: relative;
+    margin-left: 80%;
+    margin-right: 1rem;
+    background-color: #ffc312;
+}
+
+.social-signup img:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.form{
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.form label{
+    display: block;
+}
+
+.form input{
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: 1.8rem;
+    border: none;
+    outline: none;
+}
+
+.button-signup {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    margin-right: 2rem;
+
+}
+
+.button-signup button {
+    background-color: #ffc312;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    margin-top: 0.5rem;
+}
+
+.end-signup {
+    margin-top: 1rem;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.end-signup a {
+    color: rgb(42, 93, 233);
+    text-decoration: none;
+}

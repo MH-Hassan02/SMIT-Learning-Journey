@@ -1,0 +1,626 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    width: 98.8vw;
+    height: 2.5rem;
+    background-color: rgb(241, 241, 243, 0.8);
+    backdrop-filter: blur(20px);
+    display: inline-flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-bar a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.get-under-nav {
+    width: 98.8vw;
+    height: 2rem;
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.shop-now:hover {
+    text-decoration: underline;
+}
+
+.shop-now {
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: rgb(36, 71, 228);
+}
+
+.iphone-container {
+    background-image: url(./images/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 35rem;
+    position: relative;
+    background-position: center center;
+}
+
+.iphone-text1 {
+    position: relative;
+    color: white;
+    font-size: 3.4rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.iphone-text2 {
+    position: relative;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.iphone-container-anchor {
+    position: relative;
+    color: #006cd1;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    margin-right: 2rem;
+}
+
+.iphone-container-anchor:hover {
+    text-decoration: underline;
+}
+
+.iphone14-container {
+    background-image: url(./images/hero_iphone14_yellow__eun20sn4imi6_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 35rem;
+    position: relative;
+    background-position: center center;
+    margin-top: 1rem;
+}
+
+.iphone14-text1 {
+    position: relative;
+    color: black;
+    font-size: 3.4rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.iphone14-text2 {
+    position: relative;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.iphone14-container-anchor {
+    position: relative;
+    color: #006cd1;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    margin-right: 2rem;
+}
+
+.iphone14-container-anchor:hover {
+    text-decoration: underline;
+}
+
+.mac-container {
+    background-image: url(./images/hero_macbook_air_15_midnight__ct0pgwizvree_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 35rem;
+    position: relative;
+    background-position: center center;
+    margin-top: 1rem;
+
+}
+
+.mac-text1 {
+    position: relative;
+    color: black;
+    font-size: 3.4rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.mac-text2 {
+    position: relative;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.mac-container-anchor {
+    position: relative;
+    color: #006cd1;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    margin-right: 2rem;
+}
+
+.mac-container-anchor:hover {
+    text-decoration: underline;
+}
+
+.save-container {
+    background-image: url(./images/promo_bts2023_startframe__exvt2t1iuxme_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 35rem;
+    position: relative;
+    background-position: center center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.save-text1 {
+    position: relative;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.save-text3 {
+    position: relative;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.save-text2 {
+    position: relative;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.save-container-anchor {
+    position: relative;
+    color: #006cd1;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 1rem;
+    padding-top: 1rem;
+    margin-right: 2rem;
+}
+
+.save-container-anchor:hover {
+    text-decoration: underline;
+}
+
+
+
+.vision-container {
+    background-image: url(./images/promo_apple_vision_pro__f4v4zp0sum2y_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 35rem;
+    position: relative;
+    background-position: center center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.vision-text1 {
+    position: relative;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 25rem;
+}
+
+.vision-text3 {
+    position: relative;
+    color: gray;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.vision-text2 {
+    position: relative;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.vision-container-anchor {
+    position: relative;
+    color: #006cd1;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 1rem;
+    padding-top: 0.7rem;
+    margin-right: 2rem;
+}
+
+.vision-container-anchor:hover {
+    text-decoration: underline;
+}
+
+.two-containers {
+    display: flex;
+}
+
+.vision-text4 {
+    position: relative;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.watch-container {
+    background-image: url(./images/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 35rem;
+    position: relative;
+    background-position: center center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.watch-text1 {
+    position: relative;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.watch-text3 {
+    position: relative;
+    color: gray;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.watch-text2 {
+    position: relative;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+.watch-container-anchor {
+    position: relative;
+    color: #006cd1;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 1.2rem;
+    padding-top: 0.7rem;
+    margin-right: 2rem;
+}
+
+.watch-container-anchor:hover {
+    text-decoration: underline;
+}
+
+.ipad-container {
+    background-image: url(./images/promo_ipadpro_refresh__evi9utuixwuq_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 35rem;
+    position: relative;
+    background-position: center center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.ipad-text1 {
+    position: relative;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.ipad-text3 {
+    position: relative;
+    color: gray;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.ipad-text2 {
+    position: relative;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-top: 0;
+}
+
+.ipad-container-anchor {
+    position: relative;
+    color: #006cd1;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 1.2rem;
+    padding-top: 0.7rem;
+    margin-right: 2rem;
+}
+
+.ipad-container-anchor:hover {
+    text-decoration: underline;
+}
+
+.arcade-container {
+    background-image: url(./images/promo_hello_kitty__cv6gojq3rd8i_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 35rem;
+    position: relative;
+    background-position: center center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.arcade-text1 {
+    position: relative;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.arcade-text3 {
+    position: relative;
+    color: gray;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.arcade-text2 {
+    position: relative;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.6rem;
+}
+
+.arcade-container-anchor {
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 1.2rem;
+    padding-top: 0.7rem;
+    margin-right: 2rem;
+}
+
+.arcade-container-anchor:hover {
+    text-decoration: underline;
+}
+
+.card-container {
+    background-image: url(./images/tile__cauwwcyyn9hy_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 35rem;
+    position: relative;
+    background-position: center center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.card-text1 {
+    position: relative;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.card-text3 {
+    position: relative;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-top: 0rem;
+}
+
+.card-text2 {
+    position: relative;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.6rem;
+}
+
+.card-container-anchor {
+    position: relative;
+    color: #006cd1;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 1.2rem;
+    padding-top: 0.7rem;
+    margin-right: 2rem;
+}
+
+.card-container-anchor:hover {
+    text-decoration: underline;
+}
+
+.text-container {
+    background-color: #f3f3f3;
+    width: 100%;
+    min-height: 20rem;
+    position: relative;
+    background-position: center center;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.text {
+    margin-top: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #6e6e73;
+    font-size: 0.78rem;
+}
+
+.text p {
+    margin-top: 0.5rem;
+}
+
+.list-container {
+    background-color: #f3f3f3;
+    width: 100%;
+    min-height: 20rem;
+    position: relative;
+    background-position: center center;
+    /* margin-top: 1rem; */
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    /* display: flex;
+    justify-content: center; */
+}
+
+li {
+    display: flex;
+    /* flex-basis: 50%; */
+    color: #6e6e73;
+    font-size: 0.7rem;
+    margin-left: 1rem;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.list-order {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    margin-right: 2rem;
+}
+
+.list-1,
+.list-2,
+.list-3,
+.list-4,
+.list-5 {
+    width: 20%;
+}
+
+.list-head {
+    font-weight: 500;
+    color: rgb(19, 19, 19);
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.back-to-top.show {
+    display: block;
+}
+

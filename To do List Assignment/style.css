@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://bitsum.com/wp-content/uploads/dark-background-images-5561-5821-hd-wallpapers.jpg?w=640);
+    background-size: cover;
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    /* min-height: 70%; */
+    /* text-align: center; */
+    background-color: rgb(255, 255, 187);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px auto;
+}
+
+.mainContainer h1{
+    text-align: center;
+}
+
+.mainContainer input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    margin: 10px;
+    min-height: 15%;
+}
+
+.addBtn{
+    padding: 10px;
+    background-color: #0026ce;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    width: 50%;
+    /* display: flex;
+    justify-content: center; */
+    margin: 10px auto;
+}
+
+.addBtn:hover {
+    background-color: #00177c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #797979;
+    border-radius: 10px;
+}
+
+.deleteBtn {
+    padding: 10px;
+    background-color: #ce0000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    width: 20%;
+    /* display: flex;
+    justify-content: center; */
+    margin: 10px;
+}
+
+.deleteBtn:hover{
+    background-color: #910000;
+}

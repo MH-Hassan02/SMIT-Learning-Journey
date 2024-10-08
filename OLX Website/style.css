@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, 'Times New Roman', Times, serif;
+}
+
+body {
+    overflow-x: hidden;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.MH-navbar1 {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    /* height: 150px; */
+    background-color: #f7f8f8;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+.MH-navbar1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 20px;
+}
+
+.MH-navbar1 a:hover {
+    color: rgb(81, 110, 190);
+}
+
+.motors a i,
+.buildings a i {
+    margin: auto 10px;
+    padding: 7px;
+    background: linear-gradient(to bottom, rgb(219, 219, 219), white);
+    border-radius: 50%;
+}
+
+.olx-logo img {
+    /* position: relative; */
+    height: 40px;
+    width: 40px;
+    padding: 0;
+}
+
+.olx-black-logo img {
+    height: 90px;
+    height: 90px;
+}
+
+.search-boxes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* height: 150px; */
+    background-color: #f7f8f8;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    gap: 20px;
+}
+
+.search-boxes a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 20px;
+}
+
+/* 
+ {
+    display: flex;
+    width: 100%;
+} */
+
+.search {
+    border: 2px solid black;
+    width: 600px;
+    border-radius: 0;
+    height: 50px;
+}
+
+.search-button {
+    border-radius: 0;
+    background-color: black;
+    height: 50px;
+}
+
+.drop-down button {
+    /* display: flex; */
+    text-align: start;
+    background-color: white;
+    color: black;
+    height: 50px;
+    border: 2px solid black;
+    width: 250px;
+    /* gap: 20px; */
+}
+
+.drop-down button:hover {
+    background-color: white;
+    color: black;
+}
+
+.search-boxes a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin: auto;
+}
+
+.categories {
+    width: 1000%;
+    height: 48px;
+    border-bottom: 1px solid gray;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.categories h3 {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    padding-top: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.categorylinks {
+    /* padding-left: 20px; */
+    padding-top: 10px;
+}
+
+.categorylinks a {
+    margin-left: 10px;
+    color: black;
+    font-size: 12px;
+}
+
+.ad-banner {
+    width: 90%;
+    margin: 10px auto;
+    /* border:1px solid red */
+}
+
+.ad-banner img {
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+}
+
+.all-categories h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.category-cards {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+}
+
+.category-cards img {
+    width: 120px;
+}
+
+.category-cards h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 120px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.card-section h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.MH-cards {
+    max-height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.MH-cards img {
+    max-height: 200px;
+}
+
+.card-heading i {
+    position: absolute;
+    right: 20px;
+}
+
+.MH-cards p {
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+}
+
+.banner-footer {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.banner-footer img{
+    height: 10%;
+    width: 70%;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #F7F8F7;
+    display: flex;
+}
+
+.ul1 {
+    width: 16%;
+    height: 100%;
+}
+
+.ul1 ul {
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.ul1 ul li {
+    color: rgba(0, 47, 52, .64);
+    font-size: 12.04px;
+    padding-top: 5px;
+}
+
+.footersidesection {
+    width: 35%;
+    height: 100%;
+    position: relative;
+}
+
+.footersidesection h6 {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    font-size: 21px;
+}
+
+.icon1 {
+    position: relative;
+    left: 90px;
+    top: 55px;
+    width: 30px;
+    height: 30px;
+}
+
+.icon2 {
+    position: relative;
+    left: 90px;
+    top: 55px;
+    width: 30px;
+    height: 30px;
+}
+
+.icon3 {
+    position: relative;
+    left: 90px;
+    top: 55px;
+    width: 30px;
+    height: 30px;
+}
+
+.icon4 {
+    position: relative;
+    left: 90px;
+    top: 55px;
+    width: 30px;
+    height: 30px;
+}
+
+.appstorefooterlogo {
+    position: relative;
+    right: 50px;
+    top: 95px;
+    width: 80px;
+    height: 50px;
+}
+
+.copyright {
+    width: 100%;
+    height: 50px;
+    background-color: #002F34;
+    position: relative;
+}
+
+.copyright p {
+    font-size: 11px;
+    color: #fff;
+    position: absolute;
+    padding-top: 20px;
+    right: 10px;
+}
